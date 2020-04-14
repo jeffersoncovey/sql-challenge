@@ -30,7 +30,7 @@ FROM departments d
 INNER JOIN dept_manager dm ON
 	dm.dept_no = d.dept_no
 INNER JOIN employees e ON
-	e.emp_no = dm.emp_no
+	e.emp_no = dm.emp_no;
 
 -- List the department of each employee with the following information: employee number, last name, first name, and department name.
 SELECT 
